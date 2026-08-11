@@ -24,7 +24,7 @@
 <!-- info section -->
 <div class="info">
   <div class="section">
-    <h2 id="myText">Yep, that's a button alright</h2>
+    <h2 id="myText"></h2>
   </div>
   <div class="section boxes">
   </div>
@@ -35,11 +35,73 @@
   function countClicks() {
     clickCount++;
 
-    if (clickCount === 3) {
-      document.getElementById("myText").innerText = "You clicked three times!";
+    if (clickCount === 1) {
+      document.getElementById("myText").innerText = "Yep, that's a button alright";
     } else if (clickCount === 5) {
-      document.getElementById("myText").innerText = "Amazing! Five clicks!";
-    } else if (clickCount > 5) {
+      document.getElementById("myText").innerText = "Man, you sure are good at clicking that button";
+    } else if (clickCount === 10) {
+      document.getElementById("myText").innerText = "You do realize the button is completely pointless, right?";
+    } else if (clickCount === 15) {
+      document.getElementById("myText").innerText = "Clicking it won't do anything";
+     } else if (clickCount === 20) {
+      document.getElementById("myText").innerText = "It's pointless"; 
+    } else if (clickCount === 25) {
+      document.getElementById("myText").innerText = "Seriously, don't click it";
+    } else if (clickCount === 30) {
+      document.getElementById("myText").innerText = "Please stop clicking it";
+    } else if (clickCount === 35) {
+      document.getElementById("myText").innerText = "It does NOTHING";
+    } else if (clickCount === 40) {
+      document.getElementById("myText").innerText = "Stop it";
+    } else if (clickCount === 45) {
+      document.getElementById("myText").innerText = "Don't you have anything better to do than this?";
+    } else if (clickCount === 50) {
+      document.getElementById("myText").innerText = "Seriously, go do something productive";
+    } else if (clickCount === 60) {
+      document.getElementById("myText").innerText = "Stop clicking the button";
+    } else if (clickCount === 70) {
+      document.getElementById("myText").innerText = "It's not going to do anything";
+    } else if (clickCount === 80) {
+      document.getElementById("myText").innerText = "Are you really just going to continue clicking this button?";
+    } else if (clickCount === 90) {
+      document.getElementById("myText").innerText = "Why are you even doing this to yourself?";
+    } else if (clickCount === 100) {
+      document.getElementById("myText").innerText = "Actually, you know what? I give up. Continue clicking for all I care";
+    } else if (clickCount === 115) {
+      document.getElementById("myText").innerText = "So, nice weather were having, huh?";
+    } else if (clickCount === 130) {
+      document.getElementById("myText").innerText = "You do anything exciting recently? I know you can't actually respond to this, but I'm just being friendly";
+    } else if (clickCount === 150) {
+      document.getElementById("myText").innerText = "So, you done clicking the button yet?";
+    } else if (clickCount === 175) {
+      document.getElementById("myText").innerText = "Had your fill finally?";
+    } else if (clickCount === 200) {
+      document.getElementById("myText").innerText = "Bro, really?";
+    } else if (clickCount === 225) {
+      document.getElementById("myText").innerText = "Do you have any idea how many times you've clicked that button? Just curious";
+    } else if (clickCount === 250) {
+      document.getElementById("myText").innerText = "Anyway, I think it's time to move on";
+    } else if (clickCount === 300) {
+      document.getElementById("myText").innerText = "STOP!";
+    } else if (clickCount === 350) {
+      document.getElementById("myText").innerText = "I didn't realize you were this bored";
+    } else if (clickCount === 400) {
+      document.getElementById("myText").innerText = "Are you not even a little bit bored?";
+    } else if (clickCount === 450) {
+      document.getElementById("myText").innerText = "Well, I guess you are, since you're still clicking the button";
+    } else if (clickCount === 500) {
+      document.getElementById("myText").innerText = "You done yet finally?";
+    } else if (clickCount === 600) {
+      document.getElementById("myText").innerText = "Alright, I'm done with this. I'm leaving";
+    } else if (clickCount === 750) {
+      document.getElementById("myText").innerText = "Ok, I'm back. Wait, what? You're still clicking the button? Are you serious?";
+    } else if (clickCount === 1000) {
+      document.getElementById("myText").innerText = "You've clicked it at least 1,000 times already. Probably overexaggerating with that number but still...";
+    } else if (clickCount === 1100) {
+      document.getElementById("myText").innerText = "Fine, you win. You can keep clicking the button";
+    } else if (clickCount === 1250) {
+      document.getElementById("myText").innerText = "Can you stop clicking the button please? That way neither one of us goes insane";
+    } else if (clickCount > 1500) {
       document.getElementById("myText").innerText = "That is enough clicking!";
     } else {
       document.getElementById("myText").innerText = "Clicks: " + clickCount;
